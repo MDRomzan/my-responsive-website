@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+/* -----------
+font style link 
+------------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+   font-family: 'Poppins',
+   sans-serif;
+}
+/* top banner  and header style */
+
+
+.bg-color{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(120deg,#3e32a8,#e310c7);
+    margin-bottom: 70px;
+}
+
+
+
+.flxible {
+    display: flex;
+}
+.title-name{
+   width: 485px; 
+   height: 230px;
+   margin-top: 207px;
+   font-size: 64px;
+   padding-left: 156px;
+   font-weight: 700;
+   line-height: 80px;
+   color:white;
+}
+.buttom {
+   text-decoration: none; 
+   background:linear-gradient(120deg,red,blue);
+   width:88px ;
+   height:24px;
+   color:white;
+   font-size: 16px;
+   border-radius: 6px;
+   padding:10px 30px ;
+   box-shadow: inset 0 0 0 0 yellow;
+   transition: ease-out 1.5s;
+   outline:none;
+
+}
+.buttom:hover{
+   
+   box-shadow: inset 300px 0 0 0 yellow;
+} 
+.banner img{
+    width: 556px ;
+    height: 438px;
+    margin-top: 153px;
+    margin-left: 220px;
+}
+
+
+/* ----------------
+all player style 
+------------------- */
+main{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     }
+
+.players{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+   
+
+}
+.player{
+    padding: 16px;
+
+    border: 2px solid #FFFFFF ;
+    width:330px ;
+    height:474px;
+    background: #FFFFFF;
+    box-shadow:0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+   
+
+}
+.player .player-banner img{
+    border-radius: 10px;
+    width:300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+}
+.player-bio{
+    font-size: 16px;
+    margin:10px;
+}
+/* --------------
+EXTRA Style design
+-------- --------*/
+.extra-section {
+    display: flex;
+
+}
+.half-width{
+    width: 50%;
+    margin-right :10%;
+    padding-left: 15%;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 100%;
+
+}
+/* -----------------
+logo degin style
+ ---------------*/
+ .logo img{
+     Width: 483.87px ;
+     Height :110px;
+
+ }
+ .font-icon{
+     text-align: center;
+    
+ }
+ /*---------------
+  last footer styler-
+  ----------- */
+  .footer-design ,small{
+text-align: center;
+  }
